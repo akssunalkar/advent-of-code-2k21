@@ -23,8 +23,8 @@ def compare_count_increase(list_values: List[int]) -> int:
 ## Part1
 num_increase = compare_count_increase(list_values=input_measurements)
 print(f"Part 1: {num_increase}")
-## Part2
 
+## Part2
 slide_3_measurements = [
     sum(input_measurements[i : i + 3]) for i in range((len(input_measurements) - 2))
 ]
